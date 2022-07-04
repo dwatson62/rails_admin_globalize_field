@@ -17,7 +17,7 @@ module RailsAdminGlobalizeField
     end
 
     def method_name
-      "#{super}_attributes".to_sym
+      :translations_attributes
     end
 
     def available_locales
